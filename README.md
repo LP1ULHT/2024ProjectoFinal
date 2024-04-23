@@ -14,19 +14,19 @@ O jogador vence quando seu oponente tem pontos de vida negativos.
 Um jogador pode realizar até 4 ataques em cada jogada.
 
 **Requisito 4.**
-Cada ataque corresponde a uma letra e reduz os pontos de vida do oponente conforme a seguinte tabela:
+Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
 
-| **Nome do Ataque** | **Letra** | **Pontos** |
-| --- | --- | --- |
-| Soco | S | 10 |
-| Pontapé | P | 20 |
-| Defender | D | 30 |
-| Esquivar | E | 40 |
-| Gancho | G | 50 |
-| Rasteira | R | 60 |
-| Cotovelada | C | 70 |
-| Joelhada | J | 80 |
-| Agarrar | A | 0 |
+| **Nome do Ataque** | **Letra** |
+| --- | --- |
+| Soco | S |
+| Pontapé | P | 
+| Defender | D |
+| Esquivar | E |
+| Gancho | G | 
+| Rasteira | R | 
+| Cotovelada | C | 
+| Joelhada | J | 
+| Agarrar | A | 
 
 **Requisito 5.**
 Quanto mais ataques um jogador fizer em uma jogada, mais estamina será consumida, conforme a seguinte tabela:
