@@ -22,7 +22,9 @@
 ## Descrição do problema
 Neste projeto, vamos implementar um jogo de luta simples em linguagem C, onde dois jogadores irão confrontar-se num épico cenário de porrada da grossa. 
 Cada jogador terá a oportunidade de escolher um conjuntos de ataques em cada rodada, mas também terá de gerir a sua estamina. 
+
 Além disso, ao executar uma sequência específica de ataques, o jogador ativa um combo que é um golpe especial que o número significativo de danos.
+
 Como opção especial, quando um jogador estiver a perder, tem um golpe especial que permite andar no tempo para trás, onde retrocedemos o jogo um número de ataques atrás.
 
 ## Requisitos do jogo
