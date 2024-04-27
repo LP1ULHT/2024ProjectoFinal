@@ -18,15 +18,16 @@ Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
 
 | **Nome do Ataque** | **Letra** |
 | --- | --- |
-| Soco | S |
+| Zarabatana | Z |
 | Pontapé | P | 
-| Defender | D |
-| Esquivar | E |
-| Gancho | G | 
-| Rasteira | R | 
-| Cotovelada | C | 
-| Joelhada | J | 
 | Agarrar | A | 
+| Estalada | E |
+| Tombeta | T |
+| Rasteira | R |
+| Cotovelada | C |
+| Bicada | B | 40 |
+| Onda de Choque |
+| Defender | D |
 
 **Requisito 5.**
 Quanto mais ataques um jogador fizer em uma jogada, mais estamina será consumida, conforme a seguinte tabela:
@@ -37,6 +38,8 @@ Quanto mais ataques um jogador fizer em uma jogada, mais estamina será consumid
 | 2 Ataques | 10 |
 | 3 Ataques | 30 |
 | 4 Ataques | 100 |
+
+Se fizer só um ataque, o jogador recupera 10 pontos de estamina.
 
 **Requisito 6.**
 À medida que a estamina diminui, os ataques do jogador causam menos dano ao oponente, de acordo com a seguinte tabela:
@@ -67,34 +70,17 @@ O jogador pode ativar combos especiais durante o jogo, quando certas sequências
 | Wellington Steak | STTEACC | 300 |
 | Furacão Thiago | TATAPAAA | 200 |
 
-Exemplo:
-ARROZAO é composto por 2 letras A, 2 letras R, 2 letras O e uma letra Z; na sequência abaixo, as duas sequências de letras onde o combo foi ativado estão em negrito:
-
---> ST**R**D**A**C**OR**DD**A**PE**OZ**
-
-O conceito por trás disso é que as letras, pontos e estamina estão em uma lista ligada, e o programa em C verifica se as letras estão presentes na lista.
 
 **Requisito 9.**
 Existe um combo especial chamado "Lucio Tarzan Reversal", que é ativado quando as letras *TARZANTABORDA* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
 
 Exemplo:
-Se o combo for ativado e o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
+Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 
-O jogador só pode retroceder no máximo 9 ataques com este combo.
-
-O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.
-
-**Requisito 10.**
-O jogador pode ativar múltiplos combos e decidir quando aplicá-los.
-
-**Requisito 11.**
-As letras são gravadas na lista ligada e o programa deve procurar os combos na lista, apagando as letras quando um combo é ativado.
+*O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.*
 
 **Requisito 12.**
 Antes de um jogador fazer sua jogada, os últimos 40 ataques realizados pelo jogador são impressos.
-
-**Requisito 13.**
-Quando o combo TARZANTABORDA é executado, a estamina e a vida são recuperadas para momento de N ataques atrás, mas os combos usados não são recuperados. Portanto, os elementos que sejam apagados da lista ligada não precisam ser recuperados.
 
 **Requisito 14.**
 O número máximo de jogadores é 2.
