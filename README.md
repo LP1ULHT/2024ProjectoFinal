@@ -50,8 +50,8 @@ Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
 | Tombeta | T |
 | Rasteira | R |
 | Cotovelada | C |
-| Bicada | B | 40 |
-| Onda de Choque |
+| Bicada | B | 
+| Onda de Choque | O |
 | Defender | D |
 
 **Requisito 5.**
@@ -64,7 +64,7 @@ Quanto mais ataques um jogador fizer em uma jogada, mais estamina será consumid
 | 3 Ataques | 30 |
 | 4 Ataques | 100 |
 
-Se fizer só um ataque, o jogador recupera 10 pontos de estamina.
+Se fizer só um ataque, o jogador recupera 10 pontos de estamina, caso contrário perde/consome estamina.
 
 **Requisito 6.**
 À medida que a estamina diminui, os ataques do jogador causam menos dano ao oponente, de acordo com a seguinte tabela:
