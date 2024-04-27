@@ -33,7 +33,7 @@ Como ataque especial, quando um jogador estiver a perder, ver possivel  andar no
 Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina.
 
 **Requisito 2.**
-O jogador vence quando seu oponente tem pontos de vida negativos.
+O jogador vence quando seu oponente tem pontos de vida negativos. Neste caso o jogo termina.
 
 **Requisito 3.**
 O número máximo de jogadores é 2.
@@ -133,5 +133,8 @@ Antes de um jogador fazer sua jogada, os últimos 40 ataques realizados pelo jog
 
 **Requisito 20.**
 Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impressos
+
+**Requisito 21.**
+Se o utilizador escrever algo invalido ou fora destes requisitos, deve escrever "Ataque invalido, tente de novo" e pede de novo a jogada.
 
 
