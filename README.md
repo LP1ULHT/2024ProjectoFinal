@@ -23,9 +23,9 @@
 Neste projeto, vamos implementar um jogo de luta simples em linguagem C, onde dois jogadores irão confrontar-se num épico cenário de porrada da grossa. 
 Cada jogador terá a oportunidade de escolher um conjuntos de ataques em cada rodada, mas também terá de gerir a sua estamina. 
 
-Além disso, ao executar uma sequência específica de ataques, o jogador ativa um combo que é um golpe especial que o número significativo de danos.
+Além disso, dependendo de sua estamina, o jogador ativa um combo que é um ataque que causa um número significativo de danos.
 
-Como opção especial, quando um jogador estiver a perder, tem um golpe especial que permite andar no tempo para trás, onde retrocedemos o jogo um número de ataques atrás.
+Como ataque especial, quando um jogador estiver a perder, ver possivel  andar no tempo para trás, onde retrocedemos o jogo um número de ataques atrás.
 
 ## Requisitos do jogo
 
@@ -86,9 +86,9 @@ Se fizer só um ataque, o jogador recupera 10 pontos de estamina.
 Quando um jogador usar o ataque Defender, ele recupera 30 de estamina e 20 pontos de vida.
 
 **Requisito 8.**
-O jogador pode ativar combos especiais durante o jogo, quando certas sequências de letras forem escritas. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
+O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
 
-| Combo | Letras | Pontos |
+| Nome do Combo | Sequência de Letras | Pontos |
 | --- | --- | --- |
 | Arrozão | ARROZAO | 500 |
 | Dad Bad | DADBAD | 400 |
@@ -117,7 +117,7 @@ Cada jogador faz uma jogada por vez, alternando suas tentativas.
 O número máximo de jogadores é 2.
 
 **Requisito 15.**
-O histórico de golpes efectuados, pontos de vida e pontos de estaminda de cada jogador é obrigatórimente guardado numa lista ligada. 
+O histórico de ataques efectuados, pontos de vida e pontos de estamina de cada jogador é obrigatórimente guardado numa lista ligada. 
 
 **Requisito 16.**
 Um jogador pode realizar até 4 ataques em cada jogada
