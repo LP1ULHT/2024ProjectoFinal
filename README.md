@@ -79,11 +79,19 @@ Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 
 *O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.*
 
-**Requisito 12.**
+**Requisito 10.**
 Antes de um jogador fazer sua jogada, os últimos 40 ataques realizados pelo jogador são impressos.
+
+**Requisito 11.**
+O número máximo de jogadores é 2.
+
+**Requisito 12.**
+Cada jogador faz uma jogada por vez, alternando suas tentativas.
 
 **Requisito 14.**
 O número máximo de jogadores é 2.
 
 **Requisito 15.**
-Cada jogador faz uma jogada por vez, alternando suas tentativas.
+O histórico de golpes efectuados, pontos de vida e pontos de estaminda de cada jogador é obrigatórimente guardado numa lista ligada. 
+
+
