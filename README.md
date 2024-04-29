@@ -153,20 +153,9 @@ O valor maximo de pontos de vida é 1000
 
 Exemplo da evolução de pontos e vida num jogo
 
-Jogador 1					Jogador 2		
-Golpes	Estamina	Vida			Golpes	Estamina	Vida
-	800	600				400	300
-P	810	600				400	284
-	810	584			P	410	284
-P	820	584				410	268
-P	800	584				410	252
-P	780	584				410	236
-	780	568			P	420	236
-P	790	568				420	220
-	790	552			P	430	220
-P	800	552				430	204
-	800	536			P	440	204
-P	810	536				440	188
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/69914bab-0820-4f48-a717-ea8da8a1a8c9)
 
+Quando se faz um TARZANTABORDA4, perde as ultimas linhas...
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a0c6f199-190c-478a-b8c0-4a70dadaf94f)
 
