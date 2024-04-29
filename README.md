@@ -5,6 +5,10 @@
 *Linguagens de Programação I*
 
 # Projecto Final 2024 - Street Pandora C_ombat
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/43f09cab-9b86-4523-a9e0-20cd7d4bd8e9)
+
+
 >Na resolução deste projecto deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
 >- O código apresentado deve ser bem indentado. 
 >- O código deve compilar sem erros ou *warnings* utilizando o *gcc* com as seguintes flags:
