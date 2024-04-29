@@ -88,6 +88,7 @@ Se fizer só um ataque, o jogador recupera 10 pontos de estamina, caso contrári
 
 **Requisito 7.**
 Quando um jogador usar o ataque Defender, ele recupera 30 de estamina e 20 pontos de vida.
+ATENÇÃO: Sendo assim, numa jogada quando o jogador dá só um ataque que é defender, ele recupera 40 de estamina.
 
 **Requisito 8.**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
@@ -124,10 +125,10 @@ O número máximo de jogadores é 2.
 O histórico de ataques efectuados, pontos de vida e pontos de estamina de cada jogador é obrigatórimente guardado numa lista ligada. 
 
 **Requisito 16.**
-Um jogador pode realizar até 4 ataques em cada jogada
+Um jogador pode realizar até 4 ataques em cada jogada (nao pode escrever mais de 4 caracteres).
 
 **Requisito 17.**
-Um jogador pode realizar só  1 combo em cada jogada
+Um jogador pode realizar só 1 combo em cada jogada (neste caso escreve mais de 4 caracteres).
 
 **Requisito 18.**
 Não de pode combinar ataques com combos
@@ -140,5 +141,32 @@ Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impr
 
 **Requisito 21.**
 Se o utilizador escrever algo invalido ou fora destes requisitos, deve escrever "Ataque invalido, tente de novo" e pede de novo a jogada.
+
+**Requisito 22.**
+Quando um jogador aplica um ataque combo ele gasta 600 pontos de estamina
+
+**Requisito 23.**
+O valor maximo de pontos de estamina é 1000
+
+**Requisito 24.**
+O valor maximo de pontos de vida é 1000
+
+Exemplo da evolução de pontos e vida num jogo
+
+Jogador 1					Jogador 2		
+Golpes	Estamina	Vida			Golpes	Estamina	Vida
+	800	600				400	300
+P	810	600				400	284
+	810	584			P	410	284
+P	820	584				410	268
+P	800	584				410	252
+P	780	584				410	236
+	780	568			P	420	236
+P	790	568				420	220
+	790	552			P	430	220
+P	800	552				430	204
+	800	536			P	440	204
+P	810	536				440	188
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/69914bab-0820-4f48-a717-ea8da8a1a8c9)
 
 
