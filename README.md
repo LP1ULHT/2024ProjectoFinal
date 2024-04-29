@@ -151,13 +151,15 @@ O valor maximo de pontos de estamina é 1000
 **Requisito 24.**
 O valor maximo de pontos de vida é 1000
 
+## Exemplo da pontuação
+
 Exemplo da evolução de pontos e vida num jogo
 
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/69914bab-0820-4f48-a717-ea8da8a1a8c9)
 
-## Exemplos do jogos
-Brevemente...
-Quando se faz um TARZANTABORDA4, perde as ultimas linhas...
+Quando se faz um TARZANTABORDA4, perde as últimas linhas...
 
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a0c6f199-190c-478a-b8c0-4a70dadaf94f)
 
+## Exemplos do jogo
+Brevemente...
