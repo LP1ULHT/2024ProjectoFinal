@@ -25,11 +25,11 @@
 
 ## Descrição do problema
 Neste projeto, vamos implementar um jogo de luta simples em linguagem C, onde dois jogadores irão confrontar-se num épico cenário de porrada da grossa. 
-Cada jogador terá a oportunidade de escolher um conjuntos de ataques em cada rodada, mas também terá de gerir a sua estamina. 
+Cada jogador terá a oportunidade de escolher um conjunto de ataques em cada rodada, mas também terá de gerir a sua estamina. 
 
-Além disso, dependendo de sua estamina, o jogador ativa um combo que é um ataque que causa um número significativo de danos.
+Além disso, dependendo de sua estamina, o jogador pode activar um "combo", que é um ataque que causa um número significativo de danos.
 
-Como ataque especial, quando um jogador estiver a perder, ver possivel  andar no tempo para trás, onde retrocedemos o jogo um número de ataques atrás.
+Como ataque especial, quando um jogador estiver a perder, é possivel andar no tempo para trás, onde retrocedemos o jogo um certo número de ataques.
 
 ## Requisitos do jogo
 
@@ -37,7 +37,7 @@ Como ataque especial, quando um jogador estiver a perder, ver possivel  andar no
 Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina.
 
 **Requisito 2.**
-O jogador vence quando seu oponente tem pontos de vida negativos. Neste caso o jogo termina.
+O jogador vence quando seu oponente tem pontos de vida nulos ou negativos. Neste caso o jogo termina.
 
 **Requisito 3.**
 O número máximo de jogadores é 2.
