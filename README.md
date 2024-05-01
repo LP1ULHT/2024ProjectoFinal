@@ -48,7 +48,7 @@ Um jogador pode realizar até 4 ataques em cada jogada (nao pode escrever mais d
 **Requisito 3.2**
 Um jogador pode realizar só 1 combo em cada jogada (neste caso escreve mais de 4 caracteres).
 
-**Requisito 4.**
+**Requisito 4.1**
 Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
 
 | **Nome do Ataque** | **Letra** |
@@ -63,6 +63,14 @@ Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
 | Bicada | B | 
 | Onda de Choque | O |
 | Defender | D |
+
+**Requisito 4.2**
+*O jogo rege sob efeito "Pedra, Papel, Tesoura", isto é, um ataque tem um determinado efeito de acordo com ataque do outro jogador. Os efeitos sao descritos na seguinte tabela.*
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/d625ede6-cbeb-4653-8593-fdff1a81cf38)
+
+
+Se valor é positivo jogador1 tira esse valor positivo em pontos à vida do jogador 2
+Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do jogador 1
 
 **Requisito 5.**
 *Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina*
