@@ -115,30 +115,27 @@ O jogador só pode fazer um combo quando estamina for maior que 750
 Cada jogador faz uma jogada por vez, alternando suas tentativas.
 
 **Requisito 14.**
-O número máximo de jogadores é 2.
-
-**Requisito 15.**
 O histórico de ataques efectuados, pontos de vida e pontos de estamina de cada jogador é obrigatórimente guardado numa lista ligada. 
 
-**Requisito 18.**
+**Requisito 15.**
 Não de pode combinar ataques com combos
 
-**Requisito 19.**
+**Requisito 16.**
 Antes de um jogador fazer sua jogada, os últimos 40 ataques realizados pelo jogador são impressos no ecrã.
 
-**Requisito 20.**
+**Requisito 17.**
 Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impressos
 
-**Requisito 21.**
+**Requisito 18.**
 Se o utilizador escrever algo invalido ou fora destes requisitos, deve escrever "Ataque invalido, tente de novo" e pede de novo a jogada.
 
-**Requisito 22.**
+**Requisito 19.**
 Quando um jogador aplica um ataque combo ele gasta 500 pontos de estamina
 
-**Requisito 23.**
+**Requisito 20.**
 O valor maximo de pontos de estamina é 1000
 
-**Requisito 24.**
+**Requisito 21.**
 O valor maximo de pontos de vida é 1000
 
 ## Exemplo da pontuação
