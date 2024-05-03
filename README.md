@@ -154,13 +154,13 @@ O jogo contém os seguintes códigos de trapaça que, quando escritos, produzem 
 
 ??? - Reinício do jogo, ambos os jogadores voltam a ter estamina a 1000 e vida a 1000.
 
-??? - Jogador 1 - Restaura a estamina a 1000.
+??? - Jogador 1 - Restaura a estamina a X pontos.
 
-??? - Jogador 2 - Restaura a estamina a 1000.
+??? - Jogador 2 - Restaura a estamina a X pontos.
 
-??? - Jogador 1 - Restaura a vida a 1000.
+??? - Jogador 1 - Restaura a vida a X pontos.
 
-??? - Jogador 2 - Restaura a vida a 1000.
+??? - Jogador 2 - Restaura a vida a X pontos.
 
 
 ## Exemplo da pontuação
