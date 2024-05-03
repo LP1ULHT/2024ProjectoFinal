@@ -37,19 +37,20 @@ Como ataque especial, quando um jogador estiver a perder, é possivel andar no t
 Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina.
 
 **Requisito 2.**
-O jogador vence quando seu oponente tem pontos de vida nulos ou negativos. Neste caso o jogo termina.
+O jogador vence quando o seu oponente tem pontos de vida nulos ou negativos. Neste caso, o jogo termina.
 
 **Requisito 3.**
 O número máximo de jogadores é 2.
 
 **Requisito 3.1.**
-Um jogador pode realizar até 4 ataques em cada jogada (nao pode escrever mais de 4 caracteres).
+Um jogador pode realizar até 4 ataques em cada jogada (não pode escrever mais de 4 caracteres).
 
-**Requisito 3.2**
-Um jogador pode realizar só 1 combo em cada jogada (neste caso escreve mais de 4 caracteres).
+**Requisito 3.2.**
+Um jogador pode realizar apenas 1 combo em cada jogada (neste caso, escreve mais de 4 caracteres).
 
-**Requisito 4.1**
-Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
+**Requisito 4.1.**
+Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tabela:
+
 
 | **Nome do Ataque** | **Letra** |
 | --- | --- |
