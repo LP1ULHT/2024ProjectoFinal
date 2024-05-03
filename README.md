@@ -69,9 +69,7 @@ Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
 **Requisito 4.2**
 *O jogo rege sob efeito "Pedra, Papel, Tesoura", isto é, um ataque tem um determinado efeito de acordo com ataque do outro jogador. Os efeitos sao descritos na seguinte tabela.*
 
-
-![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/178c41bc-316b-48de-b35e-21189764bcac)
-
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/29413bcf-89a5-4d98-bea9-97e294a5a456)
 
 Se valor é positivo jogador1 tira esse valor positivo em pontos à vida do jogador 2
 Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do jogador 1
@@ -151,14 +149,19 @@ O valor maximo de pontos de estamina é 1000
 **Requisito 21.**
 O valor maximo de pontos de vida é 1000
 
-** Requisito 22.**
+**Requisito 22.**
 O jogo contem os seguinted cheatcodes que quando escritos produzem os seguintes efeitos
 
 ??? - Reset do jogo, ambos jogadores voltam a ter estamina a 1000 e vida a 1000
+
 ??? - Jogador 1 - Remete estamina a 1000
+
 ??? - Jogador 2 - Remete estamina a 1000
+
 ??? - Jogador 1 - Remete vida a 1000
+
 ??? - Jogador 2 - Remete vida a 1000
+
 
 ## Exemplo da pontuação
 
