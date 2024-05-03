@@ -63,14 +63,23 @@ Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
 | Bicada | B | 
 | Onda de Choque | O |
 | Defender | D |
+| Descansa | (espaço em branco)|
 
 **Requisito 4.2**
 *O jogo rege sob efeito "Pedra, Papel, Tesoura", isto é, um ataque tem um determinado efeito de acordo com ataque do outro jogador. Os efeitos sao descritos na seguinte tabela.*
-![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/d625ede6-cbeb-4653-8593-fdff1a81cf38)
+
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/178c41bc-316b-48de-b35e-21189764bcac)
 
 
 Se valor é positivo jogador1 tira esse valor positivo em pontos à vida do jogador 2
 Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do jogador 1
+
+**Requisito 4.3**
+Se numa jogada o jogador nao escrever 4 letras, é assumido que as letras não escritas são espaços em branco que é equivalente fazer o *Descansa*
+
+Exemplo: Se o jogador escrever só as duas letras *BC*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
+
 
 **Requisito 5.**
 *Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina*
