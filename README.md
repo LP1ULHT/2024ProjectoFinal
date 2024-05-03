@@ -6,7 +6,7 @@
 
 # Projecto Final 2024 - Street Pandora C_ombat
 
-![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/43f09cab-9b86-4523-a9e0-20cd7d4bd8e9)
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/2cf44de7-dc1f-4b8d-a634-15f23bed2470)
 
 
 >Na resolução deste projecto deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
