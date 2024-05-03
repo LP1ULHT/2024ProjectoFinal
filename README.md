@@ -63,6 +63,7 @@ Existem os seguintes ataques corresponde a uma letra conforme a seguinte tabela:
 | Bicada | B | 
 | Onda de Choque | O |
 | Defender | D |
+| Murro | M |
 | Descansa | (espaço em branco)|
 
 **Requisito 4.2**
