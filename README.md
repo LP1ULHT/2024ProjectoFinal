@@ -93,7 +93,10 @@ Exemplo: Se o jogador escrever só as duas letras *BC*, deve ser lido como a seq
 | **Estamina < 250** | 1 ataque |
 
 **Requisito 7.**
-*Quando um jogador usar o ataque Defender, ele recupera 100 pontos de estamina e 100 pontos de vida.*
+*Quando um jogador usar o ataque Defender, ele recupera 50 pontos de estamina e 50 pontos de vida.*
+
+**Requisito 7.**
+*Quando um jogador usar o Descansa, ele recupera 100 pontos de estamina.*
 
 **Requisito 8.**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
