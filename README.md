@@ -92,10 +92,10 @@ Exemplo: Se o jogador escrever só as duas letras *BC*, deve ser lido como a seq
 | **Estamina < 250** | 1 ataque |
 
 **Requisito 7.**
-*Quando um jogador usar o ataque Defender, ele recupera 50 pontos de estamina e 50 pontos de vida.*
+*Quando um jogador utilizar o ataque Defender, ele recupera 50 pontos de estamina e 50 pontos de vida.*
 
 **Requisito 7.**
-*Quando um jogador usar o Descansa, ele recupera 100 pontos de estamina.*
+*Quando um jogador utilizar o Descansar, ele recupera 100 pontos de estamina.*
 
 **Requisito 8.**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
@@ -104,9 +104,8 @@ O jogador pode ativar combos durante o jogo, quando certas sequências de letras
 | --- | --- | --- |
 | Arrozão | ARROZAO | 500 |
 | Dad Bad | DADBAD | 400 |
-| Wellington Steak | STTEACC | 300 |
+| Bife Wellington | STTEACC | 300 |
 | Furacão Thiago | TATAPAAA | 200 |
-
 
 **Requisito 9.**
 Existe um combo especial chamado "Lucio Tarzan Reversal", que é ativado quando as letras *TARZANTABORDA* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
@@ -117,50 +116,50 @@ Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 *O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.*
 
 **Requisito 10.**
-O jogador só pode fazer um combo quando estamina for maior que 750
+O jogador só pode fazer um combo quando a estamina for maior que 750.
 
 **Requisito 11.**
-*O jogador só pode fazer o combo especial *TARZANTABORDA* quando estamina é maior que 800 e menor que 900*
+*O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 800 e menor que 900.*
 
 **Requisito 12.**
 Cada jogador faz uma jogada por vez, alternando suas tentativas.
 
 **Requisito 14.**
-O histórico de ataques efectuados, pontos de vida e pontos de estamina de cada jogador é obrigatórimente guardado numa lista ligada. 
+O histórico de ataques realizados, pontos de vida e pontos de estamina de cada jogador é obrigatoriamente guardado numa lista ligada.
 
 **Requisito 15.**
-Não de pode combinar ataques com combos
+Não se pode combinar ataques com combos.
 
 **Requisito 16.**
 Antes de um jogador fazer sua jogada, os últimos 40 ataques realizados pelo jogador são impressos no ecrã.
 
 **Requisito 17.**
-Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impressos
+Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impressos.
 
 **Requisito 18.**
-Se o utilizador escrever algo invalido ou fora destes requisitos, deve escrever "Ataque invalido, tente de novo" e pede de novo a jogada.
+Se o utilizador escrever algo inválido ou fora destes requisitos, deve escrever "Ataque inválido, tente novamente" e pedir novamente a jogada.
 
 **Requisito 19.**
-Quando um jogador aplica um ataque combo ele gasta 500 pontos de estamina
+Quando um jogador aplica um ataque combo, ele gasta 500 pontos de estamina.
 
 **Requisito 20.**
-O valor maximo de pontos de estamina é 1000
+O valor máximo de pontos de estamina é 1000.
 
 **Requisito 21.**
-O valor maximo de pontos de vida é 1000
+O valor máximo de pontos de vida é 1000.
 
 **Requisito 22.**
-O jogo contem os seguinted cheatcodes que quando escritos produzem os seguintes efeitos
+O jogo contém os seguintes códigos de trapaça que, quando escritos, produzem os seguintes efeitos:
 
-??? - Reset do jogo, ambos jogadores voltam a ter estamina a 1000 e vida a 1000
+??? - Reinício do jogo, ambos os jogadores voltam a ter estamina a 1000 e vida a 1000.
 
-??? - Jogador 1 - Remete estamina a 1000
+??? - Jogador 1 - Restaura a estamina a 1000.
 
-??? - Jogador 2 - Remete estamina a 1000
+??? - Jogador 2 - Restaura a estamina a 1000.
 
-??? - Jogador 1 - Remete vida a 1000
+??? - Jogador 1 - Restaura a vida a 1000.
 
-??? - Jogador 2 - Remete vida a 1000
+??? - Jogador 2 - Restaura a vida a 1000.
 
 
 ## Exemplo da pontuação
