@@ -150,6 +150,15 @@ O valor maximo de pontos de estamina é 1000
 **Requisito 21.**
 O valor maximo de pontos de vida é 1000
 
+** Requisito 22.**
+O jogo contem os seguinted cheatcodes que quando escritos produzem os seguintes efeitos
+
+??? - Reset do jogo, ambos jogadores voltam a ter estamina a 1000 e vida a 1000
+??? - Jogador 1 - Remete estamina a 1000
+??? - Jogador 2 - Remete estamina a 1000
+??? - Jogador 1 - Remete vida a 1000
+??? - Jogador 2 - Remete vida a 1000
+
 ## Exemplo da pontuação
 
 
