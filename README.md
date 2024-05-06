@@ -6,7 +6,7 @@
 
 # Projecto Final 2024 - Street Pandora C_ombat
 
-![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/2cf44de7-dc1f-4b8d-a634-15f23bed2470)
+
 
 
 >Na resolução deste projecto deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
@@ -78,7 +78,8 @@ Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do joga
 **Requisito 4.3**
 Se numa jogada o jogador nao escrever 4 letras, é assumido que as letras não escritas são espaços em branco que é equivalente fazer o *Descansa*
 
-Exemplo: Se o jogador escrever só as duas letras *BC*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
+Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
+          Obtém-se exatamente o mesmo resultado se o jogador escrever *"BC  "* (com dois espaços em branco).
 
 
 **Requisito 5.**
