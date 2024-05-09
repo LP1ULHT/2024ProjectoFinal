@@ -84,15 +84,20 @@ Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a s
 
 
 **Requisito 5.**
-*Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina*
+Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina
 
 **Requisito 6.**
-*À medida que a estamina diminui, o jogador tira menos vida ao oponente*
+À medida que a estamina diminui, o jogador tira menos vida ao oponente
 
-| **Estamina > 750** | Tira 100% do que é escrito na tabela do Requisito 4.2|
-| **Estamina > 500** | Tira 75% do que é escrito na tabela do Requisito 4.2 |
-| **Estamina > 250** | Tira 50% do que é escrito na tabela do Requisito 4.2 |
-| **Estamina < 250** | Tira 25% do que é escrito na tabela do Requisito 4.2 |
+
+ **Estamina > 750** - Tira 100% do que é escrito na tabela do Requisito 4.2 
+ 
+ **Estamina > 500** - Tira 75% do que é escrito na tabela do Requisito 4.2 
+ 
+ **Estamina > 250** - Tira 50% do que é escrito na tabela do Requisito 4.2 
+
+ **Estamina < 250** - Tira 25% do que é escrito na tabela do Requisito 4.2 
+
 
 **Atenção**: Jogador 1 aplica esta formula no valores negativos da tabela, e jogador 2 aplica nos valores positivos da tabela. 
 
