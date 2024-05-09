@@ -87,12 +87,14 @@ Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a s
 *Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina*
 
 **Requisito 6.**
-*À medida que a estamina diminui, o jogador faz menos ataques por jogada*
+*À medida que a estamina diminui, o jogador tira menos vida ao oponente*
 
-| **Estamina > 750** | 4 ataques |
-| **Estamina > 500** | 3 ataques |
-| **Estamina > 250** | 2 ataques |
-| **Estamina < 250** | 1 ataque |
+| **Estamina > 750** | Tira 100% do que é escrito na tabela do Requisito 4.2|
+| **Estamina > 500** | Tira 75% do que é escrito na tabela do Requisito 4.2 |
+| **Estamina > 250** | Tira 50% do que é escrito na tabela do Requisito 4.2 |
+| **Estamina < 250** | Tira 25% do que é escrito na tabela do Requisito 4.2 |
+
+**Atenção**: Jogador 1 aplica esta formula no valores negativos da tabela, e jogador 2 aplica nos valores positivos da tabela. 
 
 **Requisito 7.**
 *Quando um jogador utilizar o ataque Defender, ele recupera 50 pontos de estamina e 50 pontos de vida.*
