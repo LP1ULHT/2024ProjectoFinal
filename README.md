@@ -37,19 +37,19 @@ Como ataque especial, quando um jogador estiver a perder, é possivel andar no t
 **Requisito 1.**
 Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina.
 
-**Requisito 2.**
+**Requisito 2.1**
 O jogador vence quando o seu oponente tem pontos de vida nulos ou negativos. Neste caso, o jogo termina.
 
-**Requisito 2.1**
+**Requisito 2.2**
 OS jogadores podem empatar quando obtêm ao mesmo tempo pontos de vida nulos ou negativos. Neste caso, o jogo termina.
 
-**Requisito 3.**
+**Requisito 3.1**
 O número máximo de jogadores é 2.
 
-**Requisito 3.1.**
+**Requisito 3.2.**
 Um jogador pode realizar até 4 ataques em cada jogada (não pode escrever mais de 4 caracteres).
 
-**Requisito 3.2.**
+**Requisito 3.3.**
 Um jogador pode realizar apenas 1 combo em cada jogada (neste caso, escreve mais de 4 caracteres).
 
 **Requisito 4.1.**
@@ -90,7 +90,7 @@ Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a s
 Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina
 
 **Requisito 6.**
-À medida que a estamina diminui, o jogador tira menos vida ao oponente
+À medida que a estamina diminui, o jogador tira menos vida ao oponente de acordo com o seguinte:
 
 
  **Estamina > 750** - Tira 100% do que é escrito na tabela do Requisito 4.2 
@@ -101,14 +101,17 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina
 
  **Estamina < 250** - Tira 25% do que é escrito na tabela do Requisito 4.2 
 
-
 **Atenção**: Jogador 1 aplica esta formula no valores negativos da tabela, e jogador 2 aplica nos valores positivos da tabela. 
 
-**Requisito 7.**
+**Requisito 6.1**
+"O valor mínimo de estamina é zero. Uma vez que ela atinge zero, qualquer subtração subsequente de estamina manterá esse valor em zero
+
+
+**Requisito 7.1**
 *Quando um jogador utilizar o ataque Defender, ele recupera 50 pontos de estamina e 50 pontos de vida.*
 
-**Requisito 7.**
-*Quando um jogador utilizar o Descansar, ele recupera 100 pontos de estamina.*
+**Requisito 7.2**
+*Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 100 pontos de estamina.*
 
 **Requisito 8.**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
@@ -162,7 +165,16 @@ O valor máximo de pontos de estamina é 1000.
 O valor máximo de pontos de vida é 1000.
 
 **Requisito 22.**
-O jogo contém os seguintes códigos de trapaça que, quando escritos, produzem os seguintes efeitos:
+Pode se inserir as jogadas por um ficheiro, onde 
+
+**Requisito 22.1**
+Cada linha do ficheiro representa uma jogada tal como descrito no requisito 3.2, 3.3, 4.3 e 12.
+
+**Requisito 22.2**
+Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linhar par a uma jogada do jogador 2.
+
+**Requisito 23.**
+O jogo contém os seguintes códigos secretos que, quando escritos, produzem os seguintes efeitos:
 
 ??? - Reinício do jogo, ambos os jogadores voltam a ter estamina a 1000 e vida a 1000.
 
@@ -176,7 +188,10 @@ O jogo contém os seguintes códigos de trapaça que, quando escritos, produzem 
 
 
 ## Exemplo da pontuação
-
+Brevemente...
 
 ## Exemplos do jogo
+Brevemente...
+
+## Exemplo do ficheiro
 Brevemente...
