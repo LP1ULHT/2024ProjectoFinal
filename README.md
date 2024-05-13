@@ -40,6 +40,9 @@ Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina.
 **Requisito 2.**
 O jogador vence quando o seu oponente tem pontos de vida nulos ou negativos. Neste caso, o jogo termina.
 
+**Requisito 2.1**
+OS jogadores podem empatar quando obtêm ao mesmo tempo pontos de vida nulos ou negativos. Neste caso, o jogo termina.
+
 **Requisito 3.**
 O número máximo de jogadores é 2.
 
@@ -66,7 +69,7 @@ Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tab
 | Onda de Choque | O |
 | Defender | D |
 | Murro | M |
-| Descansa | (espaço em branco)|
+| Descansa | |
 
 **Requisito 4.2**
 *O jogo rege sob efeito "Pedra, Papel, Tesoura", isto é, um ataque tem um determinado efeito de acordo com ataque do outro jogador. Os efeitos sao descritos na seguinte tabela.*
@@ -77,10 +80,10 @@ Se valor é positivo jogador1 tira esse valor positivo em pontos à vida do joga
 Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do jogador 1
 
 **Requisito 4.3**
-Se numa jogada o jogador nao escrever 4 letras, é assumido que as letras não escritas são espaços em branco que é equivalente fazer o *Descansa*
+Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumidas que o jogador está a fazer o *Descansa*
 
 Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
-          Obtém-se exatamente o mesmo resultado se o jogador escrever *"BC  "* (com dois espaços em branco).
+         
 
 
 **Requisito 5.**
