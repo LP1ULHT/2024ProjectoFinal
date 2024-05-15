@@ -73,8 +73,7 @@ Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tab
 
 **Requisito 4.2**
 *O jogo rege sob efeito "Pedra, Papel, Tesoura", isto é, um ataque tem um determinado efeito de acordo com ataque do outro jogador. Os efeitos sao descritos na seguinte tabela.*
-
-![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/29413bcf-89a5-4d98-bea9-97e294a5a456)
+![Screenshot 2024-05-16 001812](https://github.com/LP1ULHT/2024ProjectoFinal/assets/1611372/aa6eab03-e46b-488c-89d6-07e86430d2b6)
 
 Se valor é positivo jogador1 tira esse valor positivo em pontos à vida do jogador 2
 Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do jogador 1
