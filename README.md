@@ -28,14 +28,17 @@
 Neste projeto, vamos implementar um jogo de luta simples em linguagem C, onde dois jogadores irão confrontar-se num épico cenário de porrada da grossa. 
 Cada jogador terá a oportunidade de escolher um conjunto de ataques em cada rodada, mas também terá de gerir a sua estamina. 
 
-Além disso, dependendo de sua estamina, o jogador pode activar um "combo", que é um ataque que causa um número significativo de danos.
+Além disso, dependendo de sua estamina, o jogador pode activar um *combo*, que é um ataque que causa um número significativo de danos e consome mais estamina.
 
 Como ataque especial, quando um jogador estiver a perder, é possivel andar no tempo para trás, onde retrocedemos o jogo um certo número de ataques.
 
 ## Requisitos do jogo
 
+
+### Core
+
 **Requisito 1.**
-Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina.
+Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina. Um jogador nunca pode ter mais do que 1000 pontos de vida e 1000 pontos de estamina.
 
 **Requisito 2.1**
 O jogador vence quando o seu oponente tem pontos de vida nulos ou negativos. Neste caso, o jogo termina.
@@ -51,6 +54,14 @@ Um jogador pode realizar até 4 ataques em cada jogada (não pode escrever mais 
 
 **Requisito 3.3.**
 Um jogador pode realizar apenas 1 combo em cada jogada (neste caso, escreve mais de 4 caracteres).
+
+**Requisito 3.4.**
+Não se pode combinar ataques com combos.
+
+**Requisito 12.**
+Cada jogador faz uma jogada por vez, alternando suas tentativas.
+
+### Golpes e Combos
 
 **Requisito 4.1.**
 Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tabela:
@@ -84,12 +95,13 @@ Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumid
 Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
          
 
-
 **Requisito 5.**
-Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina
+Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do Defender e Descansar. Ver Requisito 7.1 e 7.2). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
 
 **Requisito 6.**
 À medida que a estamina diminui, o jogador tira menos vida ao oponente de acordo com o seguinte:
+
+**ISSO SEGUE ASSIM OU VAMOS TER MENOS GOLPES?**
 
 
  **Estamina > 750** - Tira 100% do que é escrito na tabela do Requisito 4.2 
@@ -103,7 +115,7 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina
 **Atenção**: Jogador 1 aplica esta formula no valores negativos da tabela, e jogador 2 aplica nos valores positivos da tabela. 
 
 **Requisito 6.1**
-"O valor mínimo de estamina é zero. Uma vez que ela atinge zero, qualquer subtração subsequente de estamina manterá esse valor em zero
+~~"O valor mínimo de estamina é zero. Uma vez que ela atinge zero, qualquer subtração subsequente de estamina manterá esse valor em zero~~
 
 
 **Requisito 7.1**
@@ -113,7 +125,7 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina
 *Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 100 pontos de estamina.*
 
 **Requisito 8.**
-O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
+O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. Um ataque combo gasta **X** de estamina, onde **X** é a quantidade de pontos do combo. Um jogador só pode fazer um combo quando tem mais do que 750 de estamina. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
 
 | Nome do Combo | Sequência de Letras | Pontos |
 | --- | --- | --- |
@@ -131,43 +143,39 @@ Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 *O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.*
 
 **Requisito 10.**
-O jogador só pode fazer um combo quando a estamina for maior que 750.
+~~O jogador só pode fazer um combo quando a estamina for maior que 750.~~
 
 **Requisito 11.**
-*O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 800 e menor que 900.*
+*O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 500 e menor que 900.*
 
-**Requisito 12.**
-Cada jogador faz uma jogada por vez, alternando suas tentativas.
+### Implementação
 
 **Requisito 14.**
 O histórico de ataques realizados, pontos de vida e pontos de estamina de cada jogador é obrigatoriamente guardado numa lista ligada.
 
-**Requisito 15.**
-Não se pode combinar ataques com combos.
-
-**Requisito 16.**
+**Requisito 15.1.**
 Antes de um jogador fazer sua jogada, os últimos 40 ataques realizados pelo jogador são impressos no ecrã.
 
-**Requisito 17.**
+**Requisito 15.2.**
 Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impressos.
 
-**Requisito 18.**
+**Requisito 16.**
 Se o utilizador escrever algo inválido ou fora destes requisitos, deve escrever "Ataque inválido, tente novamente" e pedir novamente a jogada.
 
 **Requisito 19.**
-Quando um jogador aplica um ataque combo, ele gasta 500 pontos de estamina.
+~~Quando um jogador aplica um ataque combo, ele gasta 500 pontos de estamina.~~
 
 **Requisito 20.**
-O valor máximo de pontos de estamina é 1000.
+~~O valor máximo de pontos de estamina é 1000.~~
 
 **Requisito 21.**
-O valor máximo de pontos de vida é 1000.
+~~O valor máximo de pontos de vida é 1000.~~
 
 **Requisito 22.**
 Pode se inserir as jogadas por um ficheiro, onde 
 
 **Requisito 22.1**
-Cada linha do ficheiro representa uma jogada tal como descrito no requisito 3.2, 3.3, 4.3 e 12.
+Cada linha do ficheiro representa uma jogada tal como descrito no requisito 3.x, 4.3 e 12.
 
 **Requisito 22.2**
 Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linhar par a uma jogada do jogador 2.
