@@ -94,7 +94,7 @@ Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do joga
 **Requisito 11**
 Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumidas que o jogador está a fazer o *Descansa*
 
-Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
+- Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
          
 
 **Requisito 12**
@@ -131,8 +131,7 @@ O jogador pode ativar combos durante o jogo, quando certas sequências de letras
 **Requisito 17**
 Existe um combo especial chamado *Lucio Tarzan Reversal*, que é ativado quando as letras *TARZANTABORDA* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
 
-Exemplo:
-Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
+- Exemplo: Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 
 *O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.*
 
