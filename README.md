@@ -80,8 +80,8 @@ Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tab
 | Cotovelada | C |
 | Bicada | B | 
 | Onda de Choque | O |
-| Defender | D |
 | Murro | M |
+| Defender | D |
 | Descansa | |
 
 **Requisito 10**
