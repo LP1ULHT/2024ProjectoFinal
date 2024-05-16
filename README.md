@@ -4,7 +4,7 @@
 
 *Linguagens de Programação I*
 
-# Projecto Final 2024 - Street Pandora C_ombat
+# Projecto Final 2024 - Mortal Pandora C_ombat
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/0f0cd02f-d91b-4551-bd2e-bfa1e9bee2ad)
 
 
