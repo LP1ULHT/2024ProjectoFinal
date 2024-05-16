@@ -33,8 +33,9 @@ Como ataque especial, quando um jogador estiver a perder, é possivel andar no t
 
 ## Requisitos do jogo
 
-
+---
 ### Core
+---
 
 **Requisito 1.**
 Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina. Um jogador nunca pode ter mais do que 1000 pontos de vida e 1000 pontos de estamina.
@@ -60,7 +61,9 @@ Não se pode combinar ataques com combos.
 **Requisito 8**
 Cada jogador faz uma jogada por vez, alternando suas tentativas.
 
+---
 ### Ataque e Combos
+---
 
 **Requisito 9**
 Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tabela:
@@ -100,13 +103,13 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceç�
 **Requisito 13**
 À medida que a estamina diminui, o jogador tira menos vida ao oponente de acordo com o seguinte:
 
- **Estamina > 750** - Perde vida que é descrita na tabela do Requisito 10
+ - **Estamina > 750** - Perde vida que é descrita na tabela do Requisito 10
  
- **Estamina > 500** - Perde **dobro** da vida que é descrita na tabela do Requisito 10
+ - **Estamina > 500** - Perde **dobro** da vida que é descrita na tabela do Requisito 10
  
- **Estamina > 250** - Perde **triplo** da vida que é descrita na tabela do Requisito 10 
+ - **Estamina > 250** - Perde **triplo** da vida que é descrita na tabela do Requisito 10 
 
- **Estamina < 250** - Perde **quadruplo** vida que é descrita na tabela do Requisito 10 
+ - **Estamina < 250** - Perde **quadruplo** vida que é descrita na tabela do Requisito 10 
 
 
 **Requisito 14**
@@ -137,7 +140,9 @@ Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 **Requisito 17**
 *O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 500 e menor que 900.*
 
+---
 ### Implementação
+---
 
 **Requisito 18**
 O histórico de ataques realizados, pontos de vida e pontos de estamina de cada jogador é obrigatoriamente guardado numa lista ligada.
@@ -172,6 +177,10 @@ O jogo contém os seguintes códigos secretos que, quando escritos, produzem os 
 ??? - Jogador 1 - Restaura a vida a X pontos.
 
 ??? - Jogador 2 - Restaura a vida a X pontos.
+
+---
+### Exemplos
+---
 
 
 ## Exemplo da pontuação
