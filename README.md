@@ -155,7 +155,7 @@ Se o utilizador escrever algo inválido ou fora destes requisitos, deve escrever
 Pode se inserir as jogadas por um ficheiro, onde 
 
 **Requisito 23**
-Cada linha do ficheiro representa uma jogada tal como descrito no requisito 3.x, 4.3 e 12.
+Cada linha do ficheiro representa uma jogada tal como descrito no requisito 5, 6, 8 e 16.
 
 **Requisito 24**
 Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linhar par a uma jogada do jogador 2.
