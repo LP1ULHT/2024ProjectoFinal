@@ -9,7 +9,6 @@
 
 
 
-
 >Na resolução deste projecto deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
 >- O código apresentado deve ser bem indentado. 
 >- O código deve compilar sem erros ou *warnings* utilizando o *gcc* com as seguintes flags:
@@ -40,30 +39,30 @@ Como ataque especial, quando um jogador estiver a perder, é possivel andar no t
 **Requisito 1.**
 Cada jogador começa com 1000 pontos de vida e 1000 pontos de estamina. Um jogador nunca pode ter mais do que 1000 pontos de vida e 1000 pontos de estamina.
 
-**Requisito 2.1**
+**Requisito 2**
 O jogador vence quando o seu oponente tem pontos de vida nulos ou negativos. Neste caso, o jogo termina.
 
-**Requisito 2.2**
+**Requisito 3**
 OS jogadores podem empatar quando obtêm ao mesmo tempo pontos de vida nulos ou negativos. Neste caso, o jogo termina.
 
-**Requisito 3.1**
+**Requisito 4**
 O número máximo de jogadores é 2.
 
-**Requisito 3.2.**
+**Requisito 5**
 Um jogador pode realizar até 4 ataques em cada jogada (não pode escrever mais de 4 caracteres).
 
-**Requisito 3.3.**
+**Requisito 6**
 Um jogador pode realizar apenas 1 combo em cada jogada (neste caso, escreve mais de 4 caracteres).
 
-**Requisito 3.4.**
+**Requisito 7**
 Não se pode combinar ataques com combos.
 
-**Requisito 12.**
+**Requisito 8**
 Cada jogador faz uma jogada por vez, alternando suas tentativas.
 
-### Golpes e Combos
+### Ataque e Combos
 
-**Requisito 4.1.**
+**Requisito 9**
 Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tabela:
 
 
@@ -82,49 +81,41 @@ Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tab
 | Murro | M |
 | Descansa | |
 
-**Requisito 4.2**
-*O jogo rege sob efeito "Pedra, Papel, Tesoura", isto é, um ataque tem um determinado efeito de acordo com ataque do outro jogador. Os efeitos sao descritos na seguinte tabela.*
+**Requisito 10**
+O jogo rege sob efeito "Pedra, Papel, Tesoura", isto é, um ataque tem um determinado efeito de acordo com ataque do outro jogador. Os efeitos sao descritos na seguinte tabela.
 ![Screenshot 2024-05-16 001812](https://github.com/LP1ULHT/2024ProjectoFinal/assets/1611372/aa6eab03-e46b-488c-89d6-07e86430d2b6)
 
 Se valor é positivo jogador1 tira esse valor positivo em pontos à vida do jogador 2
 Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do jogador 1
 
-**Requisito 4.3**
+**Requisito 11**
 Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumidas que o jogador está a fazer o *Descansa*
 
 Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
          
 
-**Requisito 5.**
-Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do Defender e Descansar. Ver Requisito 7.1 e 7.2). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
+**Requisito 12**
+Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do Defender e Descansar). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
 
-**Requisito 6.**
+**Requisito 13**
 À medida que a estamina diminui, o jogador tira menos vida ao oponente de acordo com o seguinte:
 
-**ISSO SEGUE ASSIM OU VAMOS TER MENOS GOLPES?**
-
-
- **Estamina > 750** - Tira 100% do que é escrito na tabela do Requisito 4.2 
+ **Estamina > 750** - Perde vida que é descrita na tabela do Requisito 10
  
- **Estamina > 500** - Tira 75% do que é escrito na tabela do Requisito 4.2 
+ **Estamina > 500** - Perde **dobro** da vida que é descrita na tabela do Requisito 10
  
- **Estamina > 250** - Tira 50% do que é escrito na tabela do Requisito 4.2 
+ **Estamina > 250** - Perde **triplo** da vida que é descrita na tabela do Requisito 10 
 
- **Estamina < 250** - Tira 25% do que é escrito na tabela do Requisito 4.2 
-
-**Atenção**: Jogador 1 aplica esta formula no valores negativos da tabela, e jogador 2 aplica nos valores positivos da tabela. 
-
-**Requisito 6.1**
-~~"O valor mínimo de estamina é zero. Uma vez que ela atinge zero, qualquer subtração subsequente de estamina manterá esse valor em zero~~
+ **Estamina < 250** - Perde **quadruplo** vida que é descrita na tabela do Requisito 10 
 
 
-**Requisito 7.1**
-*Quando um jogador utilizar o ataque Defender, ele recupera 50 pontos de estamina e 50 pontos de vida.*
+**Requisito 14**
+Quando um jogador utilizar o ataque Defender, ele recupera 50 pontos de estamina e 50 pontos de vida.
 
-**Requisito 7.2**
-*Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 100 pontos de estamina.*
+**Requisito 15**
+Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 100 pontos de estamina.
 
-**Requisito 8.**
+**Requisito 16**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. Um ataque combo gasta **X** de estamina, onde **X** é a quantidade de pontos do combo. Um jogador só pode fazer um combo quando tem mais do que 750 de estamina. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
 
 | Nome do Combo | Sequência de Letras | Pontos |
@@ -134,53 +125,42 @@ O jogador pode ativar combos durante o jogo, quando certas sequências de letras
 | Bife Wellington | STTEACC | 300 |
 | Furacão Thiago | TATAPAAA | 200 |
 
-**Requisito 9.**
-Existe um combo especial chamado "Lucio Tarzan Reversal", que é ativado quando as letras *TARZANTABORDA* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
+**Requisito 17**
+Existe um combo especial chamado *Lucio Tarzan Reversal*, que é ativado quando as letras *TARZANTABORDA* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
 
 Exemplo:
 Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 
 *O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.*
 
-**Requisito 10.**
-~~O jogador só pode fazer um combo quando a estamina for maior que 750.~~
 
-**Requisito 11.**
+**Requisito 17**
 *O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 500 e menor que 900.*
 
 ### Implementação
 
-**Requisito 14.**
+**Requisito 18**
 O histórico de ataques realizados, pontos de vida e pontos de estamina de cada jogador é obrigatoriamente guardado numa lista ligada.
 
-**Requisito 15.1.**
+**Requisito 19**
 Antes de um jogador fazer sua jogada, os últimos 40 ataques realizados pelo jogador são impressos no ecrã.
 
-**Requisito 15.2.**
+**Requisito 20**
 Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impressos.
 
-**Requisito 16.**
+**Requisito 21**
 Se o utilizador escrever algo inválido ou fora destes requisitos, deve escrever "Ataque inválido, tente novamente" e pedir novamente a jogada.
-
-**Requisito 19.**
-~~Quando um jogador aplica um ataque combo, ele gasta 500 pontos de estamina.~~
-
-**Requisito 20.**
-~~O valor máximo de pontos de estamina é 1000.~~
-
-**Requisito 21.**
-~~O valor máximo de pontos de vida é 1000.~~
 
 **Requisito 22.**
 Pode se inserir as jogadas por um ficheiro, onde 
 
-**Requisito 22.1**
+**Requisito 23**
 Cada linha do ficheiro representa uma jogada tal como descrito no requisito 3.x, 4.3 e 12.
 
-**Requisito 22.2**
+**Requisito 24**
 Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linhar par a uma jogada do jogador 2.
 
-**Requisito 23.**
+**Requisito 25**
 O jogo contém os seguintes códigos secretos que, quando escritos, produzem os seguintes efeitos:
 
 ??? - Reinício do jogo, ambos os jogadores voltam a ter estamina a 1000 e vida a 1000.
@@ -197,8 +177,17 @@ O jogo contém os seguintes códigos secretos que, quando escritos, produzem os 
 ## Exemplo da pontuação
 Brevemente...
 
-## Exemplos do jogo
+
+## Exemplos do jogo simples
 Brevemente...
+
+## Exemplos do jogo com combos
+Brevemente...
+
+
+## Exemplos do jogo empate
+Brevemente...
+
 
 ## Exemplo do ficheiro
 Brevemente...
