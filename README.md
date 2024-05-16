@@ -138,7 +138,7 @@ Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 
 
 **Requisito 17**
-*O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 500 e menor que 900.*
+O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 500 e menor que 900.
 
 ---
 ### Implementação
