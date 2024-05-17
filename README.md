@@ -22,7 +22,7 @@
 
 >Todos os trabalhos serão comparados utilizando um sistema de deteção de plágio.
 >Todos os trabalhos serão revistos e submetidos a avaliação oral
->O trabalho é individual e não em grupo.
+
 
 ## Descrição do problema
 Neste projeto, vamos implementar um jogo de luta simples em linguagem C, onde dois jogadores irão confrontar-se num épico cenário de porrada da grossa. 
