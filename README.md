@@ -99,7 +99,7 @@ Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumid
          
 
 **Requisito 12**
-Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do Descansar). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
+Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do Defender e Descansar). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
 
 **Requisito 13**
 À medida que a estamina diminui, o jogador tira menos vida ao oponente de acordo com o seguinte:
@@ -114,7 +114,7 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceç�
 
 
 **Requisito 14**
-Quando um jogador utilizar o ataque Defender, ele recupera 10 pontos de vida.
+Quando um jogador utilizar o ataque Defender, ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
 
 **Requisito 15**
 Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 25 pontos de estamina.
