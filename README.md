@@ -117,7 +117,7 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceç�
 Quando um jogador utilizar o ataque Defender, ele recupera 50 pontos de estamina e 50 pontos de vida.
 
 **Requisito 15**
-Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 100 pontos de estamina.
+Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 25 pontos de estamina.
 
 **Requisito 16**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. Um ataque combo gasta **X** de estamina, onde **X** é a quantidade de pontos do combo. Um jogador só pode fazer um combo quando tem mais do que 750 de estamina. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
