@@ -120,25 +120,37 @@ Quando um jogador utilizar o ataque Defender, ele gasta 10 pontos de estamina e 
 Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 25 pontos de estamina.
 
 **Requisito 16**
-O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. Um ataque combo gasta **X** de estamina, onde **X** é a quantidade de pontos do combo. Um jogador só pode fazer um combo quando tem mais do que 750 de estamina. As combinações e os pontos que reduzem a vida do oponente são mostrados abaixo:
+O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. 
+Um ataque combo faz o jogador gastar estamina. 
 
-| Nome do Combo | Sequência de Letras | Pontos |
+As combinações e os pontos que reduzem a vida/estamina do oponente são mostrados abaixo:
+
+| Nome do Combo | Sequência de Letras | Pontos Vida Tirado ao oponente | Estamina Perdida |
 | --- | --- | --- |
-| Arrozão | ARROZAO | 500 |
-| Dad Bad | DADBAD | 400 |
-| Bife Wellington | STTEACC | 300 |
-| Furacão Thiago | TATAPAAA | 200 |
+| Arrozão | ARROZAO | 500 | 500 |
+| Dad Bad | DADBAD | 400 | 400 |
+| Bife Wellington | STTEACC | 300 | 300 |
+| Furacão Thiago | TATAPAAA | 200 | 200 |
 
-**Requisito 17**
+**Requisito 16.1**
+Um jogador só pode fazer um combo quando tem mais do que 750 de estamina. 
+
+**Requisito 16.2**
 Existe um combo especial chamado *Lucio Tarzan Reversal*, que é ativado quando as letras *TARZANTABORDA* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
 
 - Exemplo: Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
 
 *O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.*
 
+**Requisito 16.3**
+Se o valor X de ataques é superior ao numero maximo que jogadas ocorridas, o jogo volta para o início.
 
-**Requisito 17**
+**Requisito 16.4**
 O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 500 e menor que 900.
+
+**Requisito 16.5**
+O ataque do jogador nao tira vida ao oponente, quando o oponente aplica um combo.
+
 
 ---
 ### Implementação
@@ -157,7 +169,7 @@ Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impr
 Se o utilizador escrever algo inválido ou fora destes requisitos, deve escrever "Ataque inválido, tente novamente" e pedir novamente a jogada.
 
 **Requisito 22.**
-Pode se inserir as jogadas por um ficheiro, onde 
+Pode se inserir as jogadas por um ficheiro, onde TBD
 
 **Requisito 23**
 Cada linha do ficheiro representa uma jogada tal como descrito no requisito 5, 6, 8 e 16.
