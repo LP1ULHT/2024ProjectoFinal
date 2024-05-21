@@ -126,7 +126,7 @@ Um ataque combo faz o jogador gastar estamina.
 As combinações e os pontos que reduzem a vida/estamina do oponente são mostrados abaixo:
 
 | Nome do Combo | Sequência de Letras | Pontos Vida Tirado ao oponente | Estamina Perdida |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | Arrozão | ARROZAO | 500 | 500 |
 | Dad Bad | DADBAD | 400 | 400 |
 | Bife Wellington | STTEACC | 300 | 300 |
