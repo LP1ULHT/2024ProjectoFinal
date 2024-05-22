@@ -99,7 +99,7 @@ Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumid
          
 
 **Requisito 12**
-Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do Defender e Descansar). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
+Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do *Defender* e *Descansar*). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
 
 **Requisito 13**
 À medida que a estamina diminui, o jogador tira menos vida ao oponente de acordo com o seguinte:
@@ -114,10 +114,14 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceç�
 
 
 **Requisito 14**
-Quando um jogador utilizar o ataque Defender, ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
+Quando um jogador utilizar o ataque *Defender*, ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
 
 **Requisito 15**
-Quando um jogador utilizar o Descansar (ao não preencher letras), ele recupera 25 pontos de estamina.
+Quando um jogador utilizar o *Descansar* (ao não preencher letras), ele recupera 25 pontos de estamina. 
+O *Descansar* não pode ser realizado diretamente. 
+Ele só é realizado quando há uma diferença de número de ataques; pelo jogador com um menor número de ataques no turno.
+
+- Exemplo: jogador1 usa *AA* e jogador2 *Z*. Deve-se considerar que o jogador2 utilizou uma *Zarabatana* e um *Descansar*.
 
 **Requisito 16**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. 
@@ -151,6 +155,14 @@ O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for 
 **Requisito 16.5**
 O ataque do jogador nao tira vida ao oponente, quando o oponente aplica um combo.
 
+**Requisito 17**
+Caso haja uma quantidade diferente de ataques entre os jogadores, os ataques não explicitados devem ser considerados como *Descansar*. Isso inclui o caso do combo.
+
+-Exemplo 1: jogador1 usa *AAO* e jogador2 usa *ZZ*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
+
+-Exemplo 2: jogador1 usa *DADBAD* (um combo) e jogador2 usa *MZZZ*. O jogador1 usou um combo (e não pode usá-lo com outros ataques) e o jogador2 usou quatro ataques
+Deve-se considerar que o combo DADBAD do jogador1 foi respondida pelo *Murro* do jogador2. 
+Como o jogador1 não tem outros ataques, os outros três ataques do jogador2 serão respondidos com *Descansar* pelo jogador1.
 
 ---
 ### Implementação
