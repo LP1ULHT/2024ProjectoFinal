@@ -119,7 +119,7 @@ Quando um jogador utilizar o ataque *Defender*, ele gasta 10 pontos de estamina 
 **Requisito 15**
 Quando um jogador utilizar o *Descansar* (ao não preencher letras), ele recupera 25 pontos de estamina. 
 O *Descansar* não pode ser realizado diretamente. 
-Ele só é realizado quando há uma diferença de número de ataques; pelo jogador com um menor número de ataques no turno.
+Ele só é realizado quando há uma diferença de número de ataques (pelo jogador com um menor número de ataques no turno).
 
 - Exemplo: jogador1 usa *AA* e jogador2 *Z*. Deve-se considerar que o jogador2 utilizou uma *Zarabatana* e um *Descansar*.
 
