@@ -121,7 +121,7 @@ Quando um jogador utilizar o *Descansar* (ao não preencher letras), ele recuper
 O *Descansar* não pode ser realizado diretamente. 
 Ele só é realizado quando há uma diferença de número de ataques (pelo jogador com um menor número de ataques no turno).
 
-- Exemplo: jogador1 usa *AA* e jogador2 *Z*. Deve-se considerar que o jogador2 utilizou uma *Zarabatana* e um *Descansar*.
+- Exemplo: jogador1 usa *AA* e o jogador2 usa *Z*. Deve-se considerar que o jogador2 utilizou uma *Zarabatana* e um *Descansar*.
 
 **Requisito 16**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. 
@@ -158,7 +158,7 @@ O ataque do jogador nao tira vida ao oponente, quando o oponente aplica um combo
 **Requisito 17**
 Caso haja uma quantidade diferente de ataques entre os jogadores, os ataques não explicitados devem ser considerados como *Descansar*. Isso inclui o caso do combo.
 
-- Exemplo 1: jogador1 usa *AAO* e jogador2 usa *ZZ*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
+- Exemplo 1: o jogador1 usa *AAO* e o jogador2 usa *ZZ*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
 
 - Exemplo 2: jogador1 usa *DADBAD* (um combo) e jogador2 usa *MZZZ*. O jogador1 usou um combo (e não pode usá-lo com outros ataques) e o jogador2 usou quatro ataques
 Deve-se considerar que o combo DADBAD do jogador1 foi respondida pelo *Murro* do jogador2. 
