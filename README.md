@@ -219,15 +219,38 @@ No exemplo acima:
        
 Assim obteve-se os pares: 
 
--  D vs B - P#1 defende, logo ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
-  A vida de P#1 passa de 452 para 462, e estamina de 700 para 690. O P#2 gasta 25 de estamina, passa de 490 para 465 de estamina
--  A vs A - Da zero na tabela. Estamina de P#1 passa de 690 para 675. Estamina de P#2 passa de 465 para 440. 
--  D vs B -  Jogador 1 defende, logo ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
-  A vida passa de 462 para 472, e estamina de 675 para 665.
--  A vs A - Dá zero na tabela. Estamina de P#1 passa de 665 para 640. Estamina de P#2 passa de 440 para 415. 
+-  D vs B
+
+         P#1 defende, logo ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
+
+         A vida de P#1 passa de 452 para 462, e estamina de 700 para 690.
+
+         O P#2 gasta 25 de estamina, passa de 490 para 465 de estamina
+
+-  A vs A
+  
+           Da zero na tabela.
+  
+           Estamina de P#1 passa de 690 para 675.
+   
+           Estamina de P#2 passa de 465 para 440.
+   
+-  D vs B
+
+         P#1 1 defende, logo ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
+  
+         A vida P#1 passa de 462 para 472, e estamina de 675 para 665.
+
+        O P#2 gasta 25 de estamina, passa de 440 para 415 de estamina
+   
+-  A vs A -
+
+         Dá zero na tabela.
+   
+         Estamina de P#1 passa de 665 para 640.
+   
+         Estamina de P#2 passa de 415 para 390. 
        
-
-
 
 
 ## Exemplos do jogo simples
