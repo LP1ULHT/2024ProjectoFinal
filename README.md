@@ -206,8 +206,8 @@ O jogo contém os seguintes códigos secretos que, quando escritos, produzem os 
 O programa imprime 3 linhas por cada jogador:
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/5f89d93d-7755-4529-b3b2-a83feca8d21f)
 
-
-
+Cada jogador escreve os 4 ataques ou combo após aparecer as letras **I:**, depois de ambos inserirem é impresso as parelhas de ataques como mostrado em baixo.
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/499255df-657f-4f81-b72b-40a3474423e8)
 
 
 ## Exemplo da pontuação
