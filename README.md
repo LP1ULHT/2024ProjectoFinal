@@ -112,6 +112,7 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceç�
 
  - **Estamina < 250** - Perde **quadruplo** vida que é descrita na tabela do Requisito 10 
 
+*Combos não são afetados pelo fator multiplicativo.*
 
 **Requisito 14**
 Quando um jogador utilizar o ataque *Defender*, ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
@@ -152,17 +153,15 @@ Se o valor X de ataques é superior ao numero maximo que jogadas ocorridas, o jo
 **Requisito 16.4**
 O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 500 e menor que 900.
 
-**Requisito 16.5**
-O ataque do jogador nao tira vida ao oponente, quando o oponente aplica um combo.
-
 **Requisito 17**
 Caso haja uma quantidade diferente de ataques entre os jogadores, os ataques não explicitados devem ser considerados como *Descansar*. Isso inclui o caso do combo.
 
 - Exemplo 1: o jogador1 usa *AAO* e o jogador2 usa *ZZ*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
 
-- Exemplo 2: jogador1 usa *DADBAD* (um combo) e jogador2 usa *MZZZ*. O jogador1 usou um combo (e não pode usá-lo com outros ataques) e o jogador2 usou quatro ataques
-Deve-se considerar que o combo DADBAD do jogador1 foi respondida pelo *Murro* do jogador2. 
-Como o jogador1 não tem outros ataques, os outros três ataques do jogador2 serão respondidos com *Descansar* pelo jogador1.
+- Exemplo 2: jogador1 usa *DADBAD* (um combo) e jogador2 usa *MZZZ*. O jogador1 usou um combo (e não pode usá-lo com outros ataques) e o jogador2 usou quatro ataques.
+Deve-se descartar todos os ataques do jogador2. Considerar que o combo DADBAD do jogador1 foi respondida por um *Descansar* do jogador2.
+
+- Exemplo 3: Se os dois jogadores usarem um combo, o resultado é que o efeito do combo ocorrer para os dois jogadores. Se o jogador1 usar o *DADBAD* e o jogador2 usar o *DADBAD*, ambos os jogadores vão perder 400 de estamina e 400 pontos de vida.
 
 ---
 ### Implementação
@@ -172,7 +171,7 @@ Como o jogador1 não tem outros ataques, os outros três ataques do jogador2 ser
 O histórico de ataques realizados, pontos de vida e pontos de estamina de cada jogador é obrigatoriamente guardado numa lista ligada.
 
 **Requisito 19**
-Antes de um jogador fazer sua jogada, os últimos 40 ataques realizados pelo jogador são impressos no ecrã.
+Antes de um jogador fazer sua jogada, os últimos 20 ataques realizados pelo jogador são impressos no ecrã.
 
 **Requisito 20**
 Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impressos.
