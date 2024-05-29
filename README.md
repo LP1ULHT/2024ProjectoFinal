@@ -48,7 +48,7 @@ O jogador vence quando o seu oponente tem pontos de vida nulos ou negativos. Nes
 OS jogadores podem empatar quando obtêm ao mesmo tempo pontos de vida nulos ou negativos. Neste caso, o jogo termina.
 
 **Requisito 4**
-O número máximo de jogadores é 2.
+O número de jogadores é sempre 2.
 
 **Requisito 5**
 Um jogador pode realizar até 4 ataques em cada jogada (não pode escrever mais de 4 caracteres).
@@ -97,7 +97,6 @@ Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumid
 
 - Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
          
-
 **Requisito 12**
 Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do *Defender* e *Descansar*). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
 
@@ -122,7 +121,7 @@ Quando um jogador utilizar o *Descansar* (ao não preencher letras), ele recuper
 O *Descansar* não pode ser realizado diretamente. 
 Ele só é realizado quando há uma diferença de número de ataques (pelo jogador com um menor número de ataques no turno).
 
-- Exemplo: jogador1 usa *AA* e o jogador2 usa *Z*. Deve-se considerar que o jogador2 utilizou uma *Zarabatana* e um *Descansar*.
+- Exemplo: jogador1 usa *"AA"* e o jogador2 usa *"Z"*. Deve-se considerar que o jogador2 utilizou uma *Zarabatana* e um *Descansar*.
 
 **Requisito 16**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. 
@@ -141,9 +140,9 @@ As combinações e os pontos que reduzem a vida/estamina do oponente são mostra
 Um jogador só pode fazer um combo quando tem mais do que 750 de estamina. 
 
 **Requisito 16.2**
-Existe um combo especial chamado *Lucio Tarzan Reversal*, que é ativado quando as letras *TARZANTABORDA* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
+Existe um combo especial chamado *Lucio Tarzan Reversal*, que é ativado quando as letras *"TARZANTABORDA"* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
 
-- Exemplo: Se o jogador quiser retroceder 3 ataques, ele escreve TARZANTABORDA3.
+- Exemplo: Se o jogador quiser retroceder 3 ataques, ele escreve "TARZANTABORDA3".
 
 *O conceito por trás disso é apagar os X últimos elementos da lista ligada, forçando cada elemento da lista a conter o valor da vida e da estamina do jogador.*
 
@@ -151,17 +150,17 @@ Existe um combo especial chamado *Lucio Tarzan Reversal*, que é ativado quando 
 Se o valor X de ataques é superior ao numero maximo que jogadas ocorridas, o jogo volta para o início.
 
 **Requisito 16.4**
-O jogador só pode fazer o combo especial *TARZANTABORDA* quando a estamina for maior que 500 e menor que 900.
+O jogador só pode fazer o combo especial *"TARZANTABORDA"* quando a estamina for maior que 500 e menor que 900.
 
 **Requisito 17**
 Caso haja uma quantidade diferente de ataques entre os jogadores, os ataques não explicitados devem ser considerados como *Descansar*. Isso inclui o caso do combo.
 
-- Exemplo 1: o jogador1 usa *AAO* e o jogador2 usa *ZZ*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
+- Exemplo 1: o jogador1 usa *"AAO"* e o jogador2 usa *"ZZ"*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
 
-- Exemplo 2: jogador1 usa *DADBAD* (um combo) e jogador2 usa *MZZZ*. O jogador1 usou um combo (e não pode usá-lo com outros ataques) e o jogador2 usou quatro ataques.
+- Exemplo 2: jogador1 usa *"DADBAD"* (um combo) e jogador2 usa *"MZZZ"*. O jogador1 usou um combo (e não pode usá-lo com outros ataques) e o jogador2 usou quatro ataques.
 Deve-se descartar todos os ataques do jogador2. Considerar que o combo DADBAD do jogador1 foi respondida por um *Descansar* do jogador2.
 
-- Exemplo 3: Se os dois jogadores usarem um combo, o resultado é que o efeito do combo ocorrer para os dois jogadores. Se o jogador1 usar o *DADBAD* e o jogador2 usar o *DADBAD*, ambos os jogadores vão perder 400 de estamina e 400 pontos de vida.
+- Exemplo 3: Se os dois jogadores usarem um combo, o resultado é que o efeito do combo ocorrer para os dois jogadores. Se o jogador1 usar o *"DADBAD"* e o jogador2 usar o *"DADBAD"*, ambos os jogadores vão perder 400 de estamina e 400 pontos de vida.
 
 ---
 ### Implementação
