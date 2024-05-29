@@ -204,12 +204,14 @@ O jogo contém os seguintes códigos secretos que, quando escritos, produzem os 
 ### Exemplos
 
 O programa imprime 3 linhas por cada jogador:
+
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/5f89d93d-7755-4529-b3b2-a83feca8d21f)
 
 ## Exemplo da pontuação
 Cada jogador escreve os 4 ataques ou combo após aparecer as letras **I:**, depois de ambos inserirem é impresso as parelhas de ataques como mostrado em baixo.
 
-![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/499255df-657f-4f81-b72b-40a3474423e8)
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a0819d99-e436-4c08-9304-99741b2d9a2e)
+
 
 No exemplo acima:
 
@@ -258,6 +260,7 @@ Sendo assim:
          P#2 ficou com 976 de vida e 215 de estamina
 
 Sendo assim quando se faz a proximas jogadas de P#1 e P#2 aparece o seguinte:
+
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a04c484e-ee31-450c-952b-61d70f7257f2)
 
 
@@ -266,6 +269,9 @@ Sendo assim quando se faz a proximas jogadas de P#1 e P#2 aparece o seguinte:
 Brevemente...
 
 ## Exemplos do jogo com combos
+Brevemente...
+
+## Exemplos do jogo com *Lucio Tarzan Reversal*
 Brevemente...
 
 
