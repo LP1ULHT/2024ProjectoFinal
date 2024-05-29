@@ -101,7 +101,7 @@ Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumid
 Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do *Defender* e *Descansar*). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
 
 **Requisito 13**
-À medida que a estamina diminui, o jogador tira menos vida ao oponente de acordo com o seguinte:
+À medida que a estamina diminui, o jogador perde mais vida ao sofrer ataques do oponente, de acordo com a seguinte lógica:
 
  - **Estamina > 750** - Perde vida que é descrita na tabela do Requisito 10
  
@@ -202,7 +202,12 @@ O jogo contém os seguintes códigos secretos que, quando escritos, produzem os 
 
 ---
 ### Exemplos
----
+
+O programa imprime 3 linhas por cada jogador:
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/5f89d93d-7755-4529-b3b2-a83feca8d21f)
+
+
+
 
 
 ## Exemplo da pontuação
