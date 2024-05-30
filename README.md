@@ -275,6 +275,7 @@ Sendo assim quando se faz a proximas jogadas de P#1 e P#2 aparece o seguinte:
 
 
 ## Exemplos do jogo com combos
+
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/9a5e04dc-94f9-4b3d-a252-c72ace019c60)
 
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a7487330-27c5-4204-95ad-526855c034ed)
@@ -283,9 +284,11 @@ Sendo assim quando se faz a proximas jogadas de P#1 e P#2 aparece o seguinte:
 
 ## Exemplos do jogo com *Lucio Tarzan Reversal*
 Anda 99 ataques para tras... o historico de ambos jogadores é totalmente apagado.
+
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a1343352-5600-4949-9422-d4ed0f94edd2)
 
 Anda 5 jogadas para tras, perde o historico das 5 ultimas jogadas
+
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/50b13275-fcd1-41d9-8db4-0816fe18f45d)
 
 
