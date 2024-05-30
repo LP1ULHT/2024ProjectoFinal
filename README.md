@@ -93,9 +93,9 @@ Se valor é positivo jogador1 tira esse valor positivo em pontos à vida do joga
 Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do jogador 1
 
 **Requisito 11**
-Se numa jogada o jogador nao escrever 4 letras, as letras em faltas são assumidas que o jogador está a fazer o *Descansa*
+Se numa jogada, um dos jogadores nao escrever tantas letras quanto o outro, as letras em faltas são assumidas que o jogador está a fazer o *Descansa*
 
-- Exemplo: Se o jogador escrever só as duas letras *"BC"*, deve ser lido como a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
+- Exemplo: Se um jogador escrever só as duas letras *"BC"*, e o outro escrever quatro *"DADD"*, deve ser considerado para o primeiro jogador a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
          
 **Requisito 12**
 Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do *Defender* e *Descansar*). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
