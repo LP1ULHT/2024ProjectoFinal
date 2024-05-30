@@ -299,4 +299,5 @@ O output esperado é exatamente o mesmo, apos o **"I:"** deve se fazer printf da
 
 
 Conteudo do ficheiro:
+
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/1eaca41a-cee9-4aa7-bf12-27e3e2e187b7)
