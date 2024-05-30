@@ -190,15 +190,15 @@ Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linha
 **Requisito 25**
 O jogo contém os seguintes códigos secretos que, quando escritos, produzem os seguintes efeitos:
 
-??? - Reinício do jogo, ambos os jogadores voltam a ter estamina a 1000 e vida a 1000.
+Modo-Jesus - Reinício do jogo, ambos os jogadores voltam a ter estamina a 1000 e vida a 1000.
 
-??? - Jogador 1 - Restaura a estamina a X pontos.
+Alt-F4 - Jogador 1 - Restaura a estamina a X pontos.
 
-??? - Jogador 2 - Restaura a estamina a X pontos.
+Kebab - Jogador 2 - Restaura a estamina a X pontos.
 
-??? - Jogador 1 - Restaura a vida a X pontos.
+Hiroshima - Jogador 1 - Restaura a vida a X pontos.
 
-??? - Jogador 2 - Restaura a vida a X pontos.
+Nood-Mode - Jogador 2 - Restaura a vida a X pontos.
 
 ---
 ### Exemplos
