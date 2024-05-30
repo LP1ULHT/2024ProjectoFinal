@@ -176,16 +176,16 @@ Antes de um jogador fazer sua jogada, os últimos 20 ataques realizados pelo jog
 Antes de um jogador fazer sua jogada, os pontos de sua vida e estamina são impressos.
 
 **Requisito 21**
-Se o utilizador escrever algo inválido ou fora destes requisitos, deve escrever "Ataque inválido, tente novamente" e pedir novamente a jogada.
+Se o utilizador escrever algo inválido ou fora destes requisitos, deve escrever "Entrada invalida" e termina o jogo!
 
 **Requisito 22.**
-Pode se inserir as jogadas por um ficheiro, onde TBD
+Pode se inserir as jogadas por um ficheiro. Ver exemplo no fim do enunciado.
 
 **Requisito 23**
 Cada linha do ficheiro representa uma jogada tal como descrito no requisito 5, 6, 8 e 16.
 
 **Requisito 24**
-Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linhar par a uma jogada do jogador 2.
+Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linha par a uma jogada do jogador 2.
 
 **Requisito 25**
 O jogo contém os seguintes códigos secretos que, quando escritos, produzem os seguintes efeitos:
