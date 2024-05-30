@@ -273,6 +273,14 @@ Sendo assim quando se faz a proximas jogadas de P#1 e P#2 aparece o seguinte:
 
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/32ff97ba-9842-4c52-968d-5f7e6f783306)
 
+# Exemplo de erro ou entrada invalida
+
+Em caso de erro o jogo termina imediatamente.
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/e418fd26-de4d-4bb9-87ec-7c5964af48bf)
+
+
+
 
 ## Exemplos do jogo com combos
 
