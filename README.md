@@ -277,16 +277,26 @@ Sendo assim quando se faz a proximas jogadas de P#1 e P#2 aparece o seguinte:
 ## Exemplos do jogo com combos
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/9a5e04dc-94f9-4b3d-a252-c72ace019c60)
 
-![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/762ca3c0-158d-4f7e-a5bb-c21e6a25d941)
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a7487330-27c5-4204-95ad-526855c034ed)
+
 
 
 ## Exemplos do jogo com *Lucio Tarzan Reversal*
-Brevemente...
+Anda 99 ataques para tras... o historico de ambos jogadores é totalmente apagado.
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a1343352-5600-4949-9422-d4ed0f94edd2)
 
+Anda 5 jogadas para tras, perde o historico das 5 ultimas jogadas
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/50b13275-fcd1-41d9-8db4-0816fe18f45d)
 
-## Exemplos do jogo empate
-Brevemente...
 
 
 ## Exemplo do ficheiro
-Brevemente...
+
+Para executar com um ficheiro o programa deve aceitar um segundo parametro com nome do ficheiro.
+O output esperado é exatamente o mesmo, apos o **"I:"** deve se fazer printf da linha do ficheiro escrito.
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/2b68589b-49df-4f98-88a7-2f93a6de90a7)
+
+
+Conteudo do ficheiro:
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/1eaca41a-cee9-4aa7-bf12-27e3e2e187b7)
