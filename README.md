@@ -266,7 +266,13 @@ Sendo assim quando se faz a proximas jogadas de P#1 e P#2 aparece o seguinte:
 
 
 ## Exemplos do jogo simples
-Brevemente...
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/08a03d16-3403-4512-887e-3b981b30161c)
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/f8b5d0d6-0599-4012-904d-9f9fc7404f9c)
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/32ff97ba-9842-4c52-968d-5f7e6f783306)
+
 
 ## Exemplos do jogo com combos
 Brevemente...
