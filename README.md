@@ -190,7 +190,7 @@ Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linha
 **Requisito 25**
 O jogo contém os seguintes códigos secretos que, quando escritos, produzem os seguintes efeitos:
 
-Modo-Jesus - Reinício do jogo, ambos os jogadores voltam a ter estamina a 1000 e vida a 1000.
+Modo-Jesus - Reinício do jogo, ambos os jogadores voltam a ter estamina a 1000 e vida a 1000 e no histórico não consta nenhum golpe.
 
 Alt-F4 - Jogador 1 - Restaura a estamina a X pontos.
 
