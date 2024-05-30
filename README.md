@@ -275,7 +275,10 @@ Sendo assim quando se faz a proximas jogadas de P#1 e P#2 aparece o seguinte:
 
 
 ## Exemplos do jogo com combos
-Brevemente...
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/9a5e04dc-94f9-4b3d-a252-c72ace019c60)
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/762ca3c0-158d-4f7e-a5bb-c21e6a25d941)
+
 
 ## Exemplos do jogo com *Lucio Tarzan Reversal*
 Brevemente...
