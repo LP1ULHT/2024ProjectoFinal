@@ -185,7 +185,9 @@ Pode se inserir as jogadas por um ficheiro. Ver exemplo no fim do enunciado.
 Cada linha do ficheiro representa uma jogada tal como descrito no requisito 5, 6, 8 e 16.
 
 **Requisito 24**
-Cada linha do ficheiro impar corresponde a uma jogada do jogador 1, e cada linha par a uma jogada do jogador 2.
+Cada linha corresponde a uma jogada de 4 ataque ou um combo do jogador.
+Se a linha contem um ataque ou letra invalido o programa termina.
+Se a linha contem um combo com estamina suficiente, a linha é ignorada, e a **próxima linha é lida como os input corretos do jogador**.
 
 **Requisito 25**
 O jogo contém os seguintes códigos secretos que, quando escritos, produzem os seguintes efeitos:
