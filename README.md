@@ -137,7 +137,7 @@ As combinações e os pontos que reduzem a vida/estamina do oponente são mostra
 | Furacão Thiago | TATAPAAA | 200 | 200 |
 
 **Requisito 16.1**
-Um jogador só pode fazer um combo quando tem mais do que 750 de estamina. 
+Um jogador só pode fazer um combo quando tem mais do que 750 de estamina. Se não tem estaminha suficiente, o combo se escrito é ignorado e se escreve a mensagem *Estamina Insuficiente* 
 
 **Requisito 16.2**
 Existe um combo especial chamado *Lucio Tarzan Reversal*, que é ativado quando as letras *"TARZANTABORDA"* são escritas. Este combo permite que o jogador retroceda no tempo, revertendo o jogo para X ataques anteriores, onde X é o número especificado pelo jogador.
@@ -288,6 +288,10 @@ Em caso de erro o jogo termina imediatamente.
 
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/a7487330-27c5-4204-95ad-526855c034ed)
 
+No exemplo mostra que só pode fazer combos com mais de 750 de estamina.
+Dai se imprime a mensagem *Estamina Insuficiente*
+
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/ed833cd5-b4cb-45ec-9eb1-4a0e4ed1a835)
 
 
 ## Exemplos do jogo com *Lucio Tarzan Reversal*
@@ -298,6 +302,7 @@ Anda 99 ataques para tras... o historico de ambos jogadores é totalmente apagad
 Anda 5 jogadas para tras, perde o historico das 5 ultimas jogadas
 
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/50b13275-fcd1-41d9-8db4-0816fe18f45d)
+![Uploading image.png…]()
 
 
 
