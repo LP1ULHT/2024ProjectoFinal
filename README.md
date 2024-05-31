@@ -89,14 +89,12 @@ Existem os seguintes ataques correspondentes a uma letra conforme a seguinte tab
 O jogo rege sob efeito "Pedra, Papel, Tesoura", isto é, um ataque tem um determinado efeito de acordo com ataque do outro jogador. Os efeitos sao descritos na seguinte tabela.
 ![Screenshot 2024-05-16 001812](https://github.com/LP1ULHT/2024ProjectoFinal/assets/1611372/aa6eab03-e46b-488c-89d6-07e86430d2b6)
 
+
+**Requisito 11**
 Se valor é positivo jogador1 tira esse valor positivo em pontos à vida do jogador 2
 Se valor é negativo jogador2 tira esse valor positivo em pontos à vida do jogador 1
 
-**Requisito 11**
-Se numa jogada, um dos jogadores nao escrever tantas letras quanto o outro, para as letras em faltas são assumidas que o jogador está a fazer o *Descansa*
-
-- Exemplo: Se um jogador escrever só as duas letras *"BC"*, e o outro escrever quatro *"DADD"*, deve ser considerada para o primeiro jogador a sequencia *Bicada, Cotevelada, Descansa, Descansa*.
-         
+        
 **Requisito 12**
 Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceção do *Defender* e *Descansar*). O valor mínimo da estamina é zero. O jogador pode continuar a realizar ataques mesmo com estamina a zero. 
 
@@ -117,11 +115,21 @@ Cada ataque efectuado pelo jogador faz perder 25 pontos de estamina (com exceç�
 Quando um jogador utilizar o ataque *Defender*, ele gasta 10 pontos de estamina e recupera 10 pontos de vida.
 
 **Requisito 15**
-Quando um jogador utilizar o *Descansar* (ao não preencher letras), ele recupera 25 pontos de estamina. 
-O *Descansar* não pode ser realizado diretamente. 
-Ele só é realizado quando há uma diferença de número de ataques (pelo jogador com um menor número de ataques no turno).
+Caso haja uma quantidade diferente de ataques entre os jogadores, os ataques não explicitados devem ser considerados como *Descansar*. 
+Quando acontece *Descansar*  o jogador recupera estamina. 
+Não existe letra explicíta para efectuar o *Descansar*
 
-- Exemplo: jogador1 usa *"AA"* e o jogador2 usa *"Z"*. Deve-se considerar que o jogador2 utilizou uma *Zarabatana* e um *Descansar*.
+- Exemplo 1: o jogador1 usa *"AAO"* e o jogador2 usa *"ZZ"*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
+
+- Exemplo 2: jogador1 usa *"DADBAD"* (um combo) e jogador2 usa *"MZZZ"*. O jogador1 usou um combo (e não pode usá-lo com outros ataques) e o jogador2 usou quatro ataques.
+Deve-se descartar todos os ataques do jogador2. Considerar que o combo DADBAD do jogador1 foi respondida por um *Descansar* do jogador2.
+
+- Exemplo 3: Se os dois jogadores usarem um combo, o resultado é que o efeito do combo ocorrer para os dois jogadores. Se o jogador1 usar o *"DADBAD"* e o jogador2 usar o *"DADBAD"*, ambos os jogadores vão perder 400 de estamina e 400 pontos de vida.
+
+- Exemplo 4: Se jogador1 ataca com "AA" e jogador2 joga com "BB", não existe diferença entre o número ataques, logo não acontece descansar.
+
+---
+
 
 **Requisito 16**
 O jogador pode ativar combos durante o jogo, quando certas sequências de letras forem escritas. 
@@ -152,17 +160,6 @@ Se o valor X de ataques é superior ao numero maximo que jogadas ocorridas, o jo
 **Requisito 16.4**
 O jogador só pode fazer o combo especial *"TARZANTABORDA"* quando a estamina for maior que 500 e menor que 900.
 
-**Requisito 17**
-Caso haja uma quantidade diferente de ataques entre os jogadores, os ataques não explicitados devem ser considerados como *Descansar*. Isso inclui o caso do combo.
-
-- Exemplo 1: o jogador1 usa *"AAO"* e o jogador2 usa *"ZZ"*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
-
-- Exemplo 2: jogador1 usa *"DADBAD"* (um combo) e jogador2 usa *"MZZZ"*. O jogador1 usou um combo (e não pode usá-lo com outros ataques) e o jogador2 usou quatro ataques.
-Deve-se descartar todos os ataques do jogador2. Considerar que o combo DADBAD do jogador1 foi respondida por um *Descansar* do jogador2.
-
-- Exemplo 3: Se os dois jogadores usarem um combo, o resultado é que o efeito do combo ocorrer para os dois jogadores. Se o jogador1 usar o *"DADBAD"* e o jogador2 usar o *"DADBAD"*, ambos os jogadores vão perder 400 de estamina e 400 pontos de vida.
-
----
 ### Implementação
 ---
 
