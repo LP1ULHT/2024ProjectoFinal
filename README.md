@@ -290,7 +290,8 @@ Em caso de erro o jogo termina imediatamente.
 No exemplo mostra que só pode fazer combos com mais de 750 de estamina.
 Dai se imprime a mensagem *Estamina Insuficiente*
 
-![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/ed833cd5-b4cb-45ec-9eb1-4a0e4ed1a835)
+![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/f5d167ae-5f98-4b70-b6e1-8474d7d617be)
+
 
 
 ## Exemplos do jogo com *Lucio Tarzan Reversal*
@@ -316,3 +317,48 @@ O output esperado é exatamente o mesmo, apos o **"I:"** deve se fazer printf da
 Conteudo do ficheiro:
 
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/1eaca41a-cee9-4aa7-bf12-27e3e2e187b7)
+
+
+## FAQ ##
+
+- *Olá professor, tenho uma duvida sobre a tabela de resultados entre cada tipo de ataques no projeto, especificamente qual linha se refere a qual jogador? Se é a vertical ou a horizontal?*
+
+A primeira coluna lista ataques do j1 e a primeira linha lista ataques do j2
+
+
+- *Um #define MAX_HEALTH é considerada variável global?*
+
+Constantes não são variáveis
+
+É exactamente o inverso 😅, logo podes usar #defines na boa
+
+
+- *Quando se inserem os ataques, é obrigatório serem sempre 4 ataques?*
+
+O número de ataques é 4 ou menor
+
+
+- *Se o eu colocar, "ZC R" pode ser lido como Zarbatana, Chapada, Descansar e Rasteira?* 
+
+"ZC R" não é permitido.
+
+O descansar só se usa para completar ataques na seguinte situação --> "RRR" vs "AA"
+
+Como j1 fez 3 ataques assume então que j2 fez 2 ataques e um descanso
+
+Só existem 4 cenários possíveis, os 4 cenários são exemplificados no requisito 15.
+
+
+- *O descansar entra para o histórico de ataques?*
+
+Entra
+
+
+- *O efeito do multiplicador só é aplicado após cada ronda ou pode ser aplicado entre ataques?*
+
+O multiplicador é calculado antes dos ataques e aplica aos 4
+
+
+- *O combo tarzantaborda gasta stamina?*
+
+Não
