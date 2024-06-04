@@ -302,7 +302,6 @@ Anda 99 ataques para tras... o historico de ambos jogadores é totalmente apagad
 Anda 5 jogadas para tras, perde o historico das 5 ultimas jogadas
 
 ![image](https://github.com/LP1ULHT/2024ProjectoFinal/assets/98768479/50b13275-fcd1-41d9-8db4-0816fe18f45d)
-![Uploading image.png…]()
 
 
 
