@@ -362,3 +362,10 @@ O multiplicador é calculado antes dos ataques e aplica aos 4
 - *O combo tarzantaborda gasta stamina?*
 
 Não
+
+
+- *É possível o jogo terminar em empate?*
+
+Não. No momento que um ataque faz com que um dos jogadores fique com 0 ou menos pontos de vida, o jogo deve ser encerrado. Não é possível no fluxo normal do jogo haver um empate.
+
+> Cenário hipotético  → ```P#1 [1|0] (4x)```, ```P#2 [1|0] (4x)```, ```P#1 I: AZ``` e ```P#2 I: ZA```. O jogador 2 ganha o jogo pois o primeiro ataque causa 8 de dano no jogador 1. Ainda deve exibido no ecrã todas as combinação normalmente. Neste caso ```[A,Z][Z,A]```.
