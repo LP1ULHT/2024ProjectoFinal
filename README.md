@@ -117,7 +117,7 @@ Quando um jogador utilizar o ataque *Defender*, ele gasta 10 pontos de estamina 
 
 **Requisito 15**
 Caso haja uma quantidade diferente de ataques entre os jogadores, os ataques não explicitados devem ser considerados como *Descansar*. 
-Quando acontece *Descansar*  o jogador recupera estamina. 
+Quando acontece *Descansar*  o jogador recupera 25 de estamina. 
 Não existe letra explicíta para efectuar o *Descansar*
 
 - Exemplo 1: o jogador1 usa *"AAO"* e o jogador2 usa *"ZZ"*. Como o jogador1 usou mais ataques que o jogador2, deve-se considerar que a *Onda de Choque* do jogador1 foi respondida com um *Descansar* pelo jogador2. No total serão realizados 3 ataques no turno.
