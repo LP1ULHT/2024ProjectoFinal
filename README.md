@@ -354,6 +354,11 @@ Só existem 4 cenários possíveis, os 4 cenários são exemplificados no requis
 Entra
 
 
+- *O vencedor é calculado após cada ronda ou é calculado entre ataques?*
+
+Entre cada ataque é calculado o vencedor, assim no primeiro ataque pode logo o jogador ganhar, apesar de apresentarmos 4 (ou menos).
+
+
 - *O efeito do multiplicador só é aplicado após cada ronda ou pode ser aplicado entre ataques?*
 
 O multiplicador é calculado antes dos ataques e aplica aos 4
